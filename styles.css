@@ -11,6 +11,14 @@ a {
   color: white;
 }
 
+h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
 .header {
   display: flex;
   flex: 0 1 0%;
@@ -110,4 +118,34 @@ a {
 .author {
   text-align: end;
   font-weight: 800;
+}
+
+.call-to-action-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.action-card {
+  background-color: #3882f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2%;
+  padding: 20px;
+  gap: 10px;
+}
+
+.action-card {
+  margin: 0;
+  color: white;
+}
+
+.action-btn {
+  background-color: #3882f6;
+  border: 1px solid white;
+  border-radius: 5%;
+  padding: 8px;
+  color: whitesmoke;
 }
