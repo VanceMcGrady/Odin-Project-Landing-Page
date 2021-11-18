@@ -93,12 +93,21 @@ a {
 
 .quote-section {
   background-color: #e5e7eb;
-  padding: 100px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container {
+  width: 50%;
 }
 
 .quote-section p {
+  font-size: 30px;
   font-style: italic;
 }
 .author {
   text-align: end;
+  font-weight: 800;
 }
