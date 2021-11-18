@@ -90,3 +90,15 @@ a {
   border: 3px solid orangered;
   border-radius: 2%;
 }
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 100px;
+}
+
+.quote-section p {
+  font-style: italic;
+}
+.author {
+  text-align: end;
+}
